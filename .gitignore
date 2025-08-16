@@ -1,0 +1,45 @@
+# Virtual Environment
+.venv/
+venv/
+
+# UV package manager
+uv.lock
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Production files
+*.prod
+*/*.prod
+*.prod.*
+
+# Environment variables
+.env
+.env.local
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# MyPy cache
+.mypy_cache/
+
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+.idea
